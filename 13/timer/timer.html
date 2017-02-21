@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="timer.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+function displayTime(){
+	var elt = document.getElementById("timer");
+	var now = new Date();
+	elt.innerHTML = now.toLocaleTimeString();
+	setTimeout(displayTime,1000);
+
+}
+	window.onload = displayTime;
+</script>
+	<title></title>
+</head>
+<body>
+<div class ="timer"><h1 id="timer"></h1> </div>
+</body>
+</html>

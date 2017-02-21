@@ -1,0 +1,33 @@
+body{
+	background-color: #193441;
+	text-align: center;
+	color: #fff;
+}
+.timer{
+	position: absolute;
+	width: 50%;
+	height: 20%;
+	top: 50%;
+	left: 50%;
+	 -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); 
+	/*margin: 0 auto;*/
+	background-color:#FCFFF5;
+	border: 2px solid #3E606F;
+	border-radius: 50px;
+	line-height: 0em;
+	 
+}
+h1{
+	color:#193441;
+	font-size: 7em;
+
+}
+@media screen and (max-width:830px){h1{
+	color:#193441;
+	font-size: 5em;
+	line-height:0.6em;
+}
+	
+}
